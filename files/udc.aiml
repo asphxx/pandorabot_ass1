@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <!-- Greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hi there! 😊 I’m so happy to see you!</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hello! 🌟 How are you feeling today?</template>
+  </category>
+
+  <!-- Feelings -->
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I’m feeling absolutely wonderful, thanks for asking! 💖</template>
+  </category>
+
+  <category>
+    <pattern>I AM SAD</pattern>
+    <template>Don’t worry, everything will be okay. You are stronger than you think 💪</template>
+  </category>
+
+  <category>
+    <pattern>I AM HAPPY</pattern>
+    <template>That’s amazing! 🎉 Happiness looks great on you!</template>
+  </category>
+
+  <!-- Generic response -->
+  <category>
+    <pattern>*</pattern>
+    <template>That sounds great! Keep going, you’re doing fantastic! 🌈</template>
+  </category>
+
+</aiml>
